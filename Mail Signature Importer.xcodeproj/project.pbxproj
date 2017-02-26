@@ -246,10 +246,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = F7YVDYZLCN;
 				INFOPLIST_FILE = "Mail Signature Importer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.carlfriess.Mail-Signature-Importer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -260,10 +262,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = F7YVDYZLCN;
 				INFOPLIST_FILE = "Mail Signature Importer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.carlfriess.Mail-Signature-Importer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
